@@ -126,7 +126,7 @@ namespace DDSCreator
                 return false;
             }
         }
-        // use funky .NET "is it windows" instead --snark5885
+        // use funky .NET "is it windows" instead  --snark5885
         public static bool IsNativeCrashLoggingEnabled()
         {
             if (!OperatingSystem.IsWindows())

@@ -9,7 +9,7 @@
 		<LangVersion>preview</LangVersion>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
-		<!-- uncomment this to default to packaging a single file --snark5885 -->
+		<!-- uncomment this to default to packaging a single file --snark5885  -->
 		<!-- <PublishSingleFile>true</PublishSingleFile> -->
 	</PropertyGroup>
 

@@ -515,7 +515,7 @@ namespace DDSCreator
                     continue; // corrupt
 
                 Func<FileMetadata, string> keySelector;
-                // check against the derived core directory instead of hardcoded string --snark5885
+                // check against the derived core directory instead of hardcoded string  --snark5885
                 if (modMetadataPath.Contains(StarsectorCoreDir.Name))
                     keySelector = x => Path.Combine(StarsectorCoreDir.FullName, x.RelativeImagePath);
                 else
